@@ -1,2 +1,2 @@
 # LEDLights
-Code used to control LED light strip based on the MSGEQ7 chip with automatic gain controller.
+Code changes the brightness of an LED light strip to match the beat and melody of music. The strip is segmented into three different parts with the mids and highs of the music being displayed in the middle of the strip and the bass of the music on either end of the mids and highs. It uses the MSGEQ7 chipset to take in 7 different audio frequencies and sends that data to an Arduino Uno, which then changes the brightness of the LED strip accordingly. 
